@@ -1,0 +1,33 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180907172042
+Username: REDMOND\xipeng
+RunAs User: REDMOND\xipeng
+Configuration Name: 
+Machine: DESKTOP-RTUQR5P (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 31112
+PSVersion: 5.1.17134.228
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.228
+BuildVersion: 10.0.17134.228
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\StartUp.log
+VERBOSE: .\StartUp.log
+VERBOSE: Installing Nuget : appservice.diagnostics.compilerhostinto path F:\DevDesign-Local\LocalDevFolderSchema\Framework\References
+VERBOSE: F:\DevDesign-Local\LocalDevFolderSchema\Framework\Tools\nuget.exe
+Feeds used:
+  https://api.nuget.org/v3/index.json
+  C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+Installing package 'appservice.diagnostics.compilerhost' to 'F:\DevDesign-Local\LocalDevFolderSchema\Framework\References'.
+  CACHE https://api.nuget.org/v3/registration3-gz-semver2/appservice.diagnostics.compilerhost/index.json
+Package "appservice.diagnostics.compilerhost.1.1.0" is already installed.
+**********************
+Windows PowerShell transcript end
+End time: 20180907172044
+**********************

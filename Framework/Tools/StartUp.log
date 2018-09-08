@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180907141025
+Username: REDMOND\xipeng
+RunAs User: REDMOND\xipeng
+Configuration Name: 
+Machine: DESKTOP-RTUQR5P (Microsoft Windows NT 10.0.17134.0)
+Host Application: powershell.exe -ExecutionPolicy Unrestricted -File .\StartUp.ps1
+Process ID: 25316
+PSVersion: 5.1.17134.228
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.228
+BuildVersion: 10.0.17134.228
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\StartUp.log
+VERBOSE: .\StartUp.log
+VERBOSE: Installing Nuget : into path F:\DevDesign-Local\LocalDevFolderSchema\Framework\References
+Feeds used:
+  https://api.nuget.org/v3/index.json
+  C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+Installing package 'appservice.diagnostics.compilerhost' to 'F:\DevDesign-Local\LocalDevFolderSchema\Framework\Reference
+s'.
+  CACHE https://api.nuget.org/v3/registration3-gz-semver2/appservice.diagnostics.compilerhost/index.json
+
+
+Attempting to gather dependency information for package 'appservice.diagnostics.compilerhost.1.1.0' with respect to proj
+ect 'F:\DevDesign-Local\LocalDevFolderSchema\Framework\References', targeting 'Any,Version=v0.0'
+Gathering dependency information took 23.52 ms
+Attempting to resolve dependencies for package 'appservice.diagnostics.compilerhost.1.1.0' with DependencyBehavior 'Lowe
+st'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'appservice.diagnostics.compilerhost.1.1.0'
+Resolved actions to install package 'appservice.diagnostics.compilerhost.1.1.0'
+Retrieving package 'appservice.diagnostics.compilerhost 1.1.0' from 'nuget.org'.
+Adding package 'appservice.diagnostics.compilerhost.1.1.0' to folder 'F:\DevDesign-Local\LocalDevFolderSchema\Framework\
+References'
+Added package 'appservice.diagnostics.compilerhost.1.1.0' to folder 'F:\DevDesign-Local\LocalDevFolderSchema\Framework\R
+eferences'
+Successfully installed 'appservice.diagnostics.compilerhost 1.1.0' to F:\DevDesign-Local\LocalDevFolderSchema\Framework\
+References
+Executing nuget actions took 152.64 ms
+VERBOSE: Removed 2 packages
+
+**********************
+Windows PowerShell transcript end
+End time: 20180907141026
+**********************
